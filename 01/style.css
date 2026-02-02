@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root {
+    --cor-bg01: #4550E6;
+    --cor-bg02: #5C5F91;
+    --cor-bg03: #222333;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+header>div {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+
+header h1,
+h2 {
+    color: white;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+header strong {
+    color: #FFE367;
+}
+
+header>div#container2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    background-color: rgba(34, 35, 51, 0.5);
+    box-shadow: 0px -1px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+header>div#container2 p {
+    padding: 10px;
+    color: white;
+}
+
+header div#container3 {
+    margin: 10px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: fit-content;
+}
+
+header img {
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
